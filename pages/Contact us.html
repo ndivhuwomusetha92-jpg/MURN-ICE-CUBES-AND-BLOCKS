@@ -1,130 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact us></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <body colour="white">
-    <div id="main">
-      <div id="header">
-        <div id="logo">
-          <div id="logo_text">
-            <!-- class="logo_colour", allows you to change the colour of the text -->
-            <h1 style ="font-family:algerian;">MURN ICE CUBES & BLOCKS FACTORY</h1>
-        <h2 style ="font-family:Arial;">WELCOME TO MURN ICE CUBES & BLOCKS FACTORY </h2>
-            
-          </div>
-        </div>
-        <div id="menubar">
-          <ul id="menu">
-            <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-            <li><a href="../index.html">Home page</a></li>
-            <li><a href="About us.html">About us</a></a></li>
-            <li><a href="Gallery.html">Gallery</a></a></li>
-            <li><a href="Get involved.html">Get involved</a></li>
-            <li class="selected"><a href="Contact us.html">Contact us</a></a></li>
-        <li><a href="Our work.html">Our work</a></a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="content_header"></div>
-      <div id="site_content">
-        <img src ="../assets/murn 1.jpg" width="800" height="350">
-      <div id="sidebar_container">
-          <div class="sidebar">
-            <div class="sidebar_top"></div>
-            <div class="sidebar_item">
-              <!-- insert your sidebar items here -->
-              <h3>Welcome To</h3>
-              <h4 font style ="font-family:impact;">MURN ICE CUBES & BLOCKS FACTORY</h4>
-            
-              <p></p>
-            </div>
-            <div class="sidebar_base"></div>
-          </div>
-          <div class="sidebar">
-            <div class="sidebar_top"></div>
-            <div class="sidebar_item">
-             
-              </ul>
-            </div>
-            <div class="sidebar_base"></div>
-          </div>
-          <div class="sidebar">
-            <div class="sidebar_top"></div>
-            <div class="sidebar_item">
-              <h3>Search</h3>
-              <form method="post" action="#" id="search_form">
-                <p>
-                  <input class="search" type="text" name="search_field" value="Enter keywords....." />
-                  <input name="search" type="button" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-                </p>
-              </form>
-            </div>
-            <div class="sidebar_base"></div>
-          </div>
-        </div>
-        <div id="content">
-          <!-- insert the page content here -->
-          <h2>Contact Us</h2>
-      <p></p> 082 288 1355</p>
-       
-      <h2>find us on whatsapp:</h2>  
-      <p>082 288 1355</p>	
-    <button>
-    send
-    </button>
-    <p>
-      <ul>
-      <li><a href ="https://www.facebook.com">facebook</a></li>
-     <li> <a href ="https://www.twitter.com">twitter</a></li>
-    <li><a href ="https://www.instagramcom">instagram</a></li>
-    <li></ul>
-      <section>
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+  <header>
+    <!--header-->
+    <section id="name">
+          <h1>MURN ICE CUBES & BLOCKS FACTORY</h1>
+        </section> 
+        <!-- Mobile Menu Toggle (no JS needed) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+<!--navigation-->
+    <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home page</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Get involved.html">Get involved</a></li>
+          <li><a href="Contact us.html">Contact us</a></li>
+		      <li><a href="Our work.html">Our work</a></li>
+        </ul>
+    </nav>
+  </header>
+<main>
+<section>
+    <img src ="../assets/murn 1.jpg" width="800" height="350">
+</section>
 
-            <label for="surname">surname:</label><br>
-            <input type="text" id="surname" name="surname" required><br><br>
+<section>
+  <h2>Contact Us</h2>
+  <p>Phone: <strong>082 288 1355</strong></p>
 
-            <label for="Id">Id:</label><br>
-            <input type="text" id="Id" name="Id" required><br><br>
+  <h2>Find us on WhatsApp:</h2>
+  <p>Contact us via WhatsApp at: <strong>082 288 1355</strong></p>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+  <button class="send-button">Send</button>
+</section>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+<!-- Social Media Links -->
+<section class="social-media-links">
+  <ul>
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+  </ul>
+</section>
 
-            <input type="submit" value="Submit">
-        </form>
-    </section>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  
-  
-        </div>
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.948091511301!2d30.511579276218956!3d-22.804387234221263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec5eb0009454185%3A0xe28c3dff59072067!2sMurn%20Ice%20Factory!5e0!3m2!1sen!2sie!4v1756211670769!5m2!1sen!2sie" 
-      width="600" 
-      height="450" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy"
-       referrerpolicy="no-referrer-when-downgrade"></iframe>
-      
-      <div id="content_footer"></div>
-      <div id="footer">
-  
-       <p><marquee><p>copyright Author@Ndivhuwo Musetha</p></marquee></p>
-      </div>
-    </div>
-  </body>
-  </html>
-  
+<!-- Contact Form -->
+<section>
+  <form action="#" method="post" class="contact-form">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="surname">Surname:</label><br>
+    <input type="text" id="surname" name="surname" required><br><br>
+
+    <label for="id">ID Number:</label><br>
+    <input type="text" id="id" name="id" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+    <input type="submit" value="Submit" class="submit-button">
+  </form>
+</section>
+
+<!-- Google Map -->
+<section>
+  <h2>Find Us on Google Maps</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.948091511301!2d30.511579276218956!3d-22.804387234221263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec5eb0009454185%3A0xe28c3dff59072067!2sMurn%20Ice%20Factory!5e0!3m2!1sen!2sie!4v1756211670769!5m2!1sen!2sie" 
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- footer -->
+ <footer class="footer">
+ <p>&copy; 2025 MURN ICE CUBES AND BLOCKS</p>
+</footer>
 </body>
 </html>

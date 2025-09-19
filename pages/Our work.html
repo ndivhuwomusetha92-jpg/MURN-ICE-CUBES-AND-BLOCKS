@@ -1,123 +1,80 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<body>
-<body color="white">
-  <title>Our work</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-  <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
-<div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1 style ="font-family:algerian;">MURN ICE CUBES & BLOCKS FACTORY</h1>
-		  <h2 style ="font-family:Arial;">WELCOME TO MURN ICE CUBES & BLOCKS FACTORY</h2>
-          
-        </div>
-      </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <a href="../index.html">Home page</a>
-          <a href="About us.html">About us</a>
-          <a href="Gallery.html">Gallery</a>
-          <a href="Get involved.html">Get involved</a>
-          <a href="Contact us.html">Contact us</a>
-		  <l class="selected"><a href="Our work.html">Our work</a>
+<body>
+  <header>
+    <!--header-->
+    <section id="name">
+          <h1>MURN ICE CUBES & BLOCKS FACTORY</h1>
+        </section> 
+        <!-- Mobile Menu Toggle (no JS needed) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+<!--navigation-->
+    <nav>
+        <ul class="nav-links">
+           <li><a href="../index.html">Home page</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Get involved.html">Get involved</a></li>
+          <li><a href="Contact us.html">Contact us</a></li>
+		      <li><a href="Our work.html">Our work</a></li>
         </ul>
-      </div>
-    </div>
-    <div id="content_header"></div>
-    <div id="site_content">
-      <img src ="../assets/murn 1.jpg" width="800" height="440">
-	  <div id="sidebar_container">
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <!-- insert your sidebar items here -->
-            <h3>Welcome To</h3>
-            <h4 font style ="font-family:impact;">MURN ICE CUBES & BLOCKS FACTORY</h4>
-          
-            <p>The
-	           most rated number one company 
-               that gives back to the community
-               for those who can not afford. 
-			   
-Murn Ice Factory has always been the good 
-comopany that has been there for 
- making the impossible life of needy a
- possible one by providing the best for them
- as a thank you to the community
- for buying our Ice. 		   
-	           </p>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-           <img src ="../assets/heart 6.JPG" width="350" height="200">
-		   <img src ="../assets/murn 4.jpg" width="350" height="200">
-	   </ul>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Search</h3>
-            <form method="post" action="#" id="search_form">
-              <p>
-                <input class="search" type="text" name="search_field" value="Enter keywords....." />
-              </p>
-            </form>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-      </div>
-      <div id="content">
-        <!-- insert the page content here -->
-        <h1>ALL THE IMPOSSIBLE THAT YOU THINK YOU CAN'T BE GIVEN!</h1>
-        <p>
-		MURN ICE FACTORY
-		offers everything that you may think 
-		you can't have it.
-		Starting from lending hand from Clothes, 
-		food parcels,
-		School Stationary,
-		Sanitary Towels,
-		Academy advice
-		and so fourth.
-        
-         <p>
-
-       
-	
-	  <h2 style ="font-family:algerian"></h2>
-	  
-	  </ul>
-        
-        <h2>WHAT YOU WILL LIKE US TO GIVE</h2>
-        <form action="#" method="post">
-          <div class="form_settings">
-          <p><span>comments form</span><input type="text" name="name" value="" /></p>
-            <p><span>Infor checkbox</span><textarea rows="8" cols="50" name="name"></textarea></p>
-            <p><span>Agree checkbox</span><input class="checkbox" type="checkbox" name="name" value="" /></p>
-            <p><span>Dropdown list</span><select id="id" name="name"><option value="1"> 1</option><option value="2"> 2</option></select></p>
-            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="button" /></p>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div id="content_footer"></div>
-    <div id="footer">
-      <p><marquee><p>copyright Author@Ndivhuwo Musetha</p></marquee></p>
-    </div>
+    </nav>
+  </header>
+<main>
+  <!-- Image Section -->
+  <div class="image-section">
+    <img src="../assets/murn 1.jpg" width="800" height="440" alt="Factory Image">
   </div>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <p>The most rated number one company that gives back to the community for those who cannot afford. Murn Ice Factory has always been a good company that has been there for making the impossible life of the needy a possible one by providing the best for them as a thank you to the community for buying our Ice.</p>
+  </div>
+
+  <!-- Image Gallery Section -->
+  <div class="image-gallery">
+    <img src="../assets/heart 6.JPG" width="350" height="200" alt="Image 1">
+    <img src="../assets/murn 4.jpg" width="350" height="200" alt="Image 2">
+  </div>
+
+  <!-- Company Mission Section -->
+  <div class="mission-section">
+    <h1>ALL THE IMPOSSIBLE THAT YOU THINK YOU CAN'T BE GIVEN!</h1>
+    <p>MURN ICE FACTORY offers everything that you may think you can't have it. Starting from lending a hand with Clothes, food parcels, School Stationary, Sanitary Towels, Academy advice, and so forth.</p>
+  </div>
+
+  <!-- Form Section -->
+  <section class="form-section">
+    <h2>WHAT YOU WILL LIKE US TO GIVE</h2>
+    <form action="#" method="post">
+      <div class="form_settings">
+        <p><label for="name">Comments:</label><input type="text" name="name" id="name" /></p>
+        <p><label for="info">Information:</label><textarea rows="8" cols="50" name="info" id="info"></textarea></p>
+        <p><label for="agree">Agree:</label><input class="checkbox" type="checkbox" name="agree" id="agree" value="Yes" /></p>
+        <p><label for="dropdown">Select Option:</label>
+          <select id="dropdown" name="option">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+          </select>
+        </p>
+        <p><input class="submit" type="submit" name="submit" value="Submit" /></p>
+      </div>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+ <p>&copy; 2025 MURN ICE CUBES AND BLOCKS</p>
+</footer>
 </body>
 </html>

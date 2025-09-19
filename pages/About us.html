@@ -1,97 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <body color="white">
-          <h1 style ="font-family:algerian;">MURN ICE CUBES & BLOCKS FACTORY</h1>
-		  <h2 style ="font-family:Arial;">MURN ICE CUBES & BLOCKS FACTORY</h2>
-          
-        </div>
-      </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li><a href="../index.html">Home page</a></a></li>
-          <li class="selected"><a href="About us.html">About us</a></a></li>
-          <li><a href="Gallery.html">Gallery</a></a></li>
-          <li><a href="Get involved.html">Get involved</a></li>
-          <li><a href="Contact us.html">Contact us</a></a></li>
-		  <li><a href="Our work.html">Our work</a></a></li>
-        </ul>
-      </div>
-    </div>
-    <div id="content_header"></div>
-    <div id="site_content">
-	  <div id="sidebar_container">
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <!-- insert your sidebar items here -->
-            <h3>Welcome To</h3>
-            <h1 font style ="font-family:impact;">MURN ICE CUBES & BLOCKS FACTORY</h1>
-          
-            <p>Number one leading Ice Factory in Limpopo.			   
-	           </p>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-           <img src ="../assets/murn 4.jpg" width="650" height="650">
-            </ul>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Search</h3>
-            <form method="post" action="#" id="search_form">
-              <p>
-                <input class="search" type="text" name="search_field" value="Enter keywords....." />
-              </p>
-            </form>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-      </div>
-      <div id="content">
-        <!-- insert the page content here -->
-        <h2 style ="font-family:baskerville old face;">Our Goal</h2>
-        <p>Our goal is to provide the greatest ice products while 
-        promoting neighborhood companies and making sure that the packaging and hygiene. </p>
+  <header>
+    <!--header-->
+    <section id="name">
+      <h1>MURN ICE CUBES & BLOCKS FACTORY</h1>
+    </section> 
 
-	  <h2 style =>HISTORY</h2>
-    
-        <p>  >MURN ICE CUBES & BLOCKS factory has once distributed school stationary 
+        <!-- Mobile Menu Toggle (no JS needed) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+
+<!--navigation-->
+    <nav>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home page</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Get involved.html">Get involved</a></li>
+          <li><a href="Contact us.html">Contact us</a></li>
+		      <li><a href="Our work.html">Our work</a></li>
+        </ul>
+    </nav>
+  </header>
+<main>
+  <!--welcome message-->
+  <section id="welcome">
+   <h3>Welcome To MURN ICE CUBES & BLOCKS FACTORY</h3>
+   <p>
+      Number one leading Ice Factory in Limpopo.
+   </p>
+  </section>
+  <!--image-->
+  <section>
+      <img src ="../assets/murn 4.jpg" width="650" height="650">
+  </section>
+
+<section id="goals">
+ <h2>Our Goal</h2>
+  <p>
+    Our goal is to provide the greatest ice products while 
+    promoting neighborhood companies and making sure that the packaging and hygiene.
+  </p>
+<section id="history">
+	  <h2>HISTORY</h2>
+    <p>
+    MURN ICE CUBES & BLOCKS factory has once distributed school stationary 
 		to more than 24 school ever since it was founded since 2012. 
 		We have been working hand in hand with the Vhembe district to make this happen.
-	We also donated a borehoel to our community since we have water issue. During December, we also work with community leaders
-        to donate food parcels for families that can not afford to.		
-     </p>
-	  <h2 style ="font-family:baskerville old face;">VISION</h2>
-	  The ideology of our vision is to
+	  We also donated a borehoel to our community since we have water issue. During December, we also work with community leaders
+    to donate food parcels for families that can not afford to.		
+    </p>
+  </section>
+  <section id="vision">
+	  <h2>VISION</h2>
+	  <p>
+    The ideology of our vision is to
 	  continue to serve the community like never before,and set the highest standards of service quality 
 	  and in that way justify and uphold the reputation that we have among people
 	  of our community.
+    </p>
+</section>
+</main>
 
-      </div>
-    </div>
-    <div id="content_footer"></div>
-    <div id="footer">
-      <p><marquee><p>copyright Author@Ndivhuwo Musetha</p></marquee></p>
-  </div>
+<footer class="footer">
+ <p>&copy; 2025 MURN ICE CUBES AND BLOCKS</p>
+</footer>
 </body>
 </html>
-</body>
-</html>
-

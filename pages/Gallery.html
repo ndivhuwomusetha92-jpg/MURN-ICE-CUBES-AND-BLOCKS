@@ -1,85 +1,82 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Gallery</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
-  <link rel="stylesheet" type="text/css" href="style/style.css" />
-   <link rel="stylesheet" type="text/css" href="CSS/style.css" title="style" />
-  <link rel="stylesheet" type="text/css" href="CSS/lightbox.css" title="style" />  
-   <link rel="icon" href="images/favicon.ico">
-   <script src="js/lightbox.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
-<body bgcolor="white">
- 
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1 style ="font-family:algerian;">MURN ICE CUBES & BLOCKS FACTORY</h1>
-		  <h2 style ="font-family:Arial;">WELCOME TO MURN ICE CUBES & BLOCKS FACTORY</h2>
-          
-        </div>
-      </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li><a href="../index.html">Home page</a></li>
-          <li><a href="About us.htm">About us</a></a></li>
-          <li class="selected"><a href="Gallery.html">Gallery</a></li>
+  <header>
+    <!--header-->
+    <section id="name">
+          <h1>MURN ICE CUBES & BLOCKS FACTORY</h1>
+        </section> 
+        <!-- Mobile Menu Toggle (no JS needed) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+<!--navigation-->
+    <nav>
+        <ul class="nav-links">
+         <li><a href="../index.html">Home page</a></li>
+          <li><a href="About us.html">About us</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
           <li><a href="Get involved.html">Get involved</a></li>
-          <li><a href="Contact us.html">Contact us</a></a></li>
-		  <li><a href="Our work.html">Our work</a></a></li>
+          <li><a href="Contact us.html">Contact us</a></li>
+		      <li><a href="Our work.html">Our work</a></li>
         </ul>
-		 </div>
-    </div>
- 
-      <img src ="../assets/murn 6.jpg" width="1000" height="550">
-<p><font style ="font:Arial;"> Above is a picture showing our factory that is situated at Tshiombo, matangari.
+    </nav>
+  </header>
+<main>
+<h1>Gallery</h1>
+<p>Below are pictures showing our factory located at Tshiombo, Matangari.</p>
 
-	   <div id="sidebar_container">
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <!-- insert your sidebar items here -->
-           <img src ="../assets/murn 7.jpg" width="400" height="250">
-		   <img src ="../assets/murn 8.jpg" width="400" height="250">
-		   <img src ="../assets/murn 9.JPG" width="400" height="250">
-          
-      
-       <h1>Gallery</h1>
-	     
-		
-		<a href="../assets/heart 8.JPG" data-lightbox="MURN ICE CUBES & BLOCKS FACTORY" title="Matric registration">
-          <img src ="../assets/heart 8.JPG" alt="Matric registration" class="img-thumbnail" width="350" height="280">
-		  
-		  <a href="../assets/murn 3.jpg" data-lightbox="MURN ICE CUBES & BLOCKS FACTORY" title="B3">
-	        <img src ="../assets/heart 8.JPG" alt="B3" class="img-thumbnail" width="350" height="280"> 
-							   
-		   <a href="../assets/murn 4.jpg" data-lightbox="MURN ICE CUBES & BLOCKS FACTORY" title="B4">
-	          <img src ="../assets/heart 10.JPG" alt="B4" class="img-thumbnail" width="350" height="280"> 
-			  
-				<a href="../assets/heart 11.JPG" data-lightbox="MURN ICE CUBES & BLOCKS FACTORY" title="B5">		
-	             <img src ="..assets/wede/heart 11.jpg" alt="B5" class="img-thumbnail" width="350" height="280"> 
-				 
-			<a href="../assets/heart 12.JPG" data-lightbox="MURN ICE CUBES & BLOCKS FACTORY" title="B6">		 
-	  <img src ="../assets/heart 12.JPG" alt="B6" class="img-thumbnail" width="350" height="280"> 
-	  
-	         <a href="../assets/murn 7.jpg" data-lightbox="MURN ICE CUBES & BLOCKS FACTORY" title="">	
-	          
-				 
-				
-				                
+<!-- Gallery Images -->
+<div class="image-gallery">
+     <h3>Ice Factory</h3>
+    <a href="../assets/murn 6.jpg" data-lightbox="factory-gallery" title="Factory Image 1">
+        <img src="../assets/murn 6.jpg" alt="Factory Image 1" width="1000" height="550">
+    </a>
+    
+    <a href="../assets/murn 7.jpg" data-lightbox="factory-gallery" title="Factory Image 2">
+        <img src="../assets/murn 7.jpg" alt="Factory Image 2" width="400" height="250">
+    </a>
+    <a href="../assets/murn 8.jpg" data-lightbox="factory-gallery" title="Factory Image 3">
+        <img src="../assets/murn 8.jpg" alt="Factory Image 3" width="400" height="250">
+    </a>
+    <a href="../assets/murn 9.JPG" data-lightbox="factory-gallery" title="Factory Image 4">
+        <img src="../assets/murn 9.JPG" alt="Factory Image 4" width="400" height="250">
+    </a>
+    <a href="../assets/heart 8.JPG" data-lightbox="factory-gallery" title="Matric Registration">
+        <img src="../assets/heart 8.JPG" alt="Matric registration" class="img-thumbnail" width="350" height="280">
+    </a>
+    <h3>Ice storage</h3>
+    <a href="../assets/murn 3.jpg" data-lightbox="factory-gallery" title="B3">
+        <img src="../assets/murn 3.jpg" alt="B3" class="img-thumbnail" width="350" height="280">
+    </a>
+    
+    <a href="../assets/murn 4.JPG" data-lightbox="factory-gallery" title="B4">
+        <img src="../assets/murn 4.JPG" alt="B4" class="img-thumbnail" width="350" height="280">
+    </a>
+    <a href="../assets/heart 11.jpg" data-lightbox="factory-gallery" title="B5">
+        <img src="../assets/heart 11.jpg" alt="B5" class="img-thumbnail" width="350" height="280">
+    </a>
+   
+    <a href="../assets/heart 12.JPG" data-lightbox="factory-gallery" title="B6">
+        <img src="../assets/heart 12.JPG" alt="B6" class="img-thumbnail" width="350" height="280">
+    </a>
+   <h3>MURN ICE Factory Location </h3>
+    <a href="../assets/murn 7.jpg" data-lightbox="factory-gallery" title="B7">
+        <img src="../assets/murn 7.jpg" alt="B7" class="img-thumbnail" width="350" height="280">
+    </a>
 </div>
-	<div id="content_footer"></div>
-    <div id="footer">
-      <p><marquee><p>copyright Author@Ndivhuwo Musetha</p></marquee></p>
-    </div>
-  </div>
-  <script src="js/lightbox.min.js"></script>
+
+<!-- footer -->
+<footer class="footer">
+ <p>&copy; 2025 MURN ICE CUBES AND BLOCKS</p>
+</footer>
 </body>
 </html>	
